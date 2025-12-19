@@ -11,10 +11,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p class="zh-more-info-main">
-      团队负责人：<span style="background:#fff3bf;padding:.05em .35em;border-radius:.35em;">张友浪</span>
+      团队负责人：<span class="zh-name">张友浪</span>
     </p>
     <p class="zh-more-info-sub">
-      首席工程师：<span style="background:#dbeafe;padding:.05em .35em;border-radius:.35em;">王培杰</span>
+      首席工程师：<span class="zh-name">王培杰</span>
     </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
