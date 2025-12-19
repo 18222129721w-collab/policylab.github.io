@@ -24,35 +24,32 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* 整体中文默认字体（可按喜好顺序调整） */
-.zh-about,
-.zh-subtitle,
-.zh-more-info-main,
-.zh-more-info-sub {
-  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
-               "Hiragino Sans GB", "Source Han Sans SC", "Heiti SC", sans-serif;
+/* 全站默认字体：优先使用微软雅黑 */
+body {
+  font-family: "Microsoft YaHei", "微软雅黑",
+               -apple-system, BlinkMacSystemFont,
+               "PingFang SC", "Noto Sans SC",
+               "Hiragino Sans GB", "Source Han Sans SC",
+               sans-serif;
+}
+
+/* about 页里的中文排版微调 */
+.zh-about {
+  font-size: 18px;
   line-height: 1.8;
 }
 
-/* 正文段落字号 */
-.zh-about {
-  font-size: 18px;  /* 想大一点就改成 20px、22px 等 */
-}
-
-/* 副标题字号 */
 .zh-subtitle {
   font-size: 20px;
   font-weight: 600;
 }
 
-/* “团队负责人”那一行 */
 .zh-more-info-main {
   font-size: 18px;
   font-weight: 700;
   margin: 0 0 .3rem 0;
 }
 
-/* “首席工程师”那一行 */
 .zh-more-info-sub {
   font-size: 16px;
   font-weight: 600;
