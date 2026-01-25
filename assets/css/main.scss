@@ -55,3 +55,14 @@ body {
   font-weight: 600;
   margin: 0;
 }
+
+/* 全站页面底图背景 */
+body {
+  background-image: url('https://policymetricscn.github.io/assets/img/图片1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;        /* 等比例铺满 */
+  background-attachment: fixed;  /* 页面滚动时背景固定，可按需删掉 */
+  background-position: center top;
+}
+
+
