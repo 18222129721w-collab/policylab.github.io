@@ -22,13 +22,15 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-outline.scss"
 ;
 
-/* 全站默认字体：优先使用微软雅黑 */
 body {
-  font-family: "Microsoft YaHei", "微软雅黑",
-               -apple-system, BlinkMacSystemFont,
-               "PingFang SC", "Noto Sans SC",
-               "Hiragino Sans GB", "Source Han Sans SC",
-               sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont,
+    "SF Pro Text", "SF Pro SC",     /* 新系统上的默认 UI 字体 */
+    "PingFang SC", "Hiragino Sans GB",
+    "Noto Sans SC", "Source Han Sans SC", /* 思源 / Noto，很多机器都有预装或用户自装 */
+    "Segoe UI", "Roboto", "Helvetica Neue", Arial,
+    "Microsoft YaHei",
+    sans-serif;
 }
 
 /* about 页里的中文排版微调 */
