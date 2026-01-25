@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: 本页展示团队正在开展和已完成的研究项目。
 nav: true
 nav_order: 3
-display_categories: [work, fun]
 horizontal: true
 ---
 
