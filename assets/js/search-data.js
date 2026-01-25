@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "publications",
-          description: "",
+          description: "本页展示团队已完成或进行中的研究成果。",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
