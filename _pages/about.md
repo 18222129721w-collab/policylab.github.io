@@ -1,6 +1,6 @@
 ---
-layout: About
-title: About
+layout: about
+title: about
 permalink: /
 subtitle: >
   <span class="zh-subtitle"><a href="#"> 团队目标 </a>: AI for public policy</span>
