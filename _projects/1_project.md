@@ -1,7 +1,7 @@
 <img width="893" height="423" alt="image" src="https://github.com/user-attachments/assets/c83895fd-a28b-463a-ba71-357223d8e638" />---
 layout: page
 title: project 1：住房政策工具数据库（HPTDB）
-img: assets/img/住房政策.jpg
+img: assets/img/住房政策.png
 importance: 1
 category: work
 related_publications: true
