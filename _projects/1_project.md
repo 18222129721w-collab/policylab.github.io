@@ -1,81 +1,15 @@
----
+<img width="893" height="423" alt="image" src="https://github.com/user-attachments/assets/c83895fd-a28b-463a-ba71-357223d8e638" />---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: project 1：住房政策工具数据库（HPTDB）
+img: assets/img/住房政策.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+住房政策工具数据库（Housing Policy Tool Database，以下简称“HPTDB”）是由中国人民大学国家治理大数据和人工智能创新平台政策工具数据库建设与政策评价团队（发起方）于2025年1月发起的学术公益数据项目。项目旨在建设中国住房政策工具数据库，为住房政策领域的学术研究、政策制定与效果评估提供详实的基础数据支撑。目前，团队向学术界免费开放住房政策工具数据库。
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+本数据库以中国自 1998 年住房制度改革以来各地住房政策为基础，围绕“政策—政策工具—工具设定”三个层次，对1998至2024年地级市层面的住房政策文本开展系统梳理与结构化整理。团队从近 44 万份相关政策文本出发，切分得到约 422 万个文本块；在此基础上识别出约 105 万个相关文本块，并进一步抽取形成 40 余万条可计量的住房政策工具记录。工具类型覆盖住房供给与保障、住房金融与税费政策、购房资格与交易限制（如限购、限售、限贷）、市场监管与价格管理等，兼顾管制型与激励型工具，并尽可能细化到“工具如何执行、力度多大、对谁生效、在何种条件下生效”等关键设定。
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+本数据库的建设投入了大量人力、时间与算力资源。我们公开这一数据集，旨在为住房研究与政策工具研究提供一套可直接使用、便于复核且可扩展的数据基础设施。欢迎相关领域学者使用并提出意见建议，以推动数据库持续改进。
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
