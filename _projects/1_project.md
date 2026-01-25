@@ -1,11 +1,12 @@
-<img width="893" height="423" alt="image" src="https://github.com/user-attachments/assets/c83895fd-a28b-463a-ba71-357223d8e638" />---
+---
 layout: page
 title: project 1：住房政策工具数据库（HPTDB）
 img: assets/img/住房政策.png
 importance: 1
 category: work
-related_publications: true
+giscus_comments: true
 ---
+
 
 住房政策工具数据库（Housing Policy Tool Database，以下简称“HPTDB”）是由中国人民大学国家治理大数据和人工智能创新平台政策工具数据库建设与政策评价团队（发起方）于2025年1月发起的学术公益数据项目。项目旨在建设中国住房政策工具数据库，为住房政策领域的学术研究、政策制定与效果评估提供详实的基础数据支撑。目前，团队向学术界免费开放住房政策工具数据库。
 
