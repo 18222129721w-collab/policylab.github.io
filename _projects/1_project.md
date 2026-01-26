@@ -15,4 +15,18 @@ giscus_comments: false
 
 本数据库的建设投入了大量人力、时间与算力资源。我们公开这一数据集，旨在为住房研究与政策工具研究提供一套可直接使用、便于复核且可扩展的数据基础设施。欢迎相关领域学者使用并提出意见建议，以推动数据库持续改进。
 
-[附件1：《住房政策工具数据库数据使用申请表》下载](https://policymetricscn.github.io/assets/pdf/住房政策工具数据库数据使用申请表.pdf)
+<p>
+  <a class="btn btn-sm btn-outline-primary"
+     href="https://policymetricscn.github.io/assets/pdf/住房政策工具数据库数据使用申请表.pdf"
+     target="_blank"
+     rel="noopener"
+     onclick="if (typeof gtag === 'function') {
+                gtag('event', 'file_download', {
+                  file_name: '住房政策工具数据库数据使用申请表.pdf',
+                  file_type: 'pdf',
+                  project: 'HPTDB'
+                });
+              }">
+    下载《住房政策工具数据库数据使用申请表》PDF
+  </a>
+</p>
