@@ -1,4 +1,5 @@
-<img width="966" height="125" alt="image" src="https://github.com/user-attachments/assets/194bd9b7-2897-4126-a986-4839c4f98f1b" />---
+
+---
 layout: page
 title: project 1：住房政策工具数据库
 img: assets/img/住房政策.png
